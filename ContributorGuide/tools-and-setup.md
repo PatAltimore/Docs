@@ -27,7 +27,7 @@ If you're unfamiliar with Git, you might want to review some Git terminology: [h
 - [Determine whether you need to follow the rest of these steps](#determine-whether-you-really-need-to-follow-the-rest-of-these-steps)
 - [Permissions in GitHub](#permissions-in-github)
 - [Install Git for Windows](#install-git-for-windows)
-- [Enable two-factor authentication](#enable-two-factor-authentication)
+- [Enable two-factor authentication](#enable-two-factor-authentication-2fa-and-create-an-access-token)
 - [Install a markdown editor](#install-a-markdown-editor)
 - [Fork the repository and copy it to your computer](#fork-the-repository-and-copy-it-to-your-computer)
 - [Configure your user name and email locally](#configure-your-user-name-and-email-locally)
