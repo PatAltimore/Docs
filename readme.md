@@ -96,6 +96,8 @@ The content published to docs.microsoft.com is partitioned into several public G
 |     | [Azure Rights Management][EM-AzureRMS-Land] | [Microsoft/Azure-RMSDocs][EM-AzureRMS-Repo] | [Yammer][Forum-Yammer-AzureRMS], [TechNet][Forum-MSDN-AzureRMS], [Stack Overflow][Forum-SO-AzureRMS] |
 |     | [Microsoft Advanced Threat Analytics][EM-ATA-Land] | [Microsoft/ATADocs][EM-ATA-Repo] | [TechNet][Forum-MSDN-ATA] |
 |     | [Azure RemoteApp][EM-RemoteApp-Land] | [Azure/Azure-Content][EM-RemoteApp-Repo] | [TechNet][Forum-MSDN-RemoteApp], [Stack Overflow][Forum-SO-RemoteApp] |
+| [.NET][Dotnet-Page] |     |     | [Stack Overflow][Forum-SO-Dotnet] |
+|     | [.NET Core][Dotnet-Core-Page] | [dotnet/core-docs][Dotnet-Core-Repo] | [Stack Overflow][Forum-SO-Dotnet-Core] |
 
 The content in each repository is loosely aligned with the organization of the articles on the corresponding [https://docs.microsoft.com/](https://docs.microsoft.com/) landing pages. A series of subdirectories are used for separation of usage scenarios/stages (ie: Understand & Explore, Deploy & Use, etc), along with media content (ie: image files) and include files (Markdown files that are reused across multiple main articles).
 
@@ -200,6 +202,9 @@ This is not an exhaustive list, but here are a few ideas for Markdown editors th
 
 <!---- Reference links for Docs landing pages, associated GitHub repositories, and related Forums matrix. ------------------>
 <!---- PLEASE INSERT URLS IN ASCENDING SORT ORDER, AND REMOVE LOCALE SEGMENT FROM URLS (ie: en-us) FOR LOCALIZED FORUMS! -->
+[Dotnet-Page]: https://docs.microsoft.com/dotnet
+[Dotnet-Core-Page]: https://docs.microsoft.com/dotnet/core/welcome
+[Dotnet-Core-Repo]: https://github.com/dotnet/core-docs
 [EM-ATA-Land]: https://docs.microsoft.com/advanced-threat-analytics/
 [EM-ATA-Repo]: https://github.com/Microsoft/ATADocs
 [EM-AzureAD-Land]: https://docs.microsoft.com/active-directory/
@@ -228,6 +233,8 @@ This is not an exhaustive list, but here are a few ideas for Markdown editors th
 [Forum-MSDN-RemoteApp]: https://social.technet.microsoft.com/Forums/en-US/home?filter=alltypes&brandIgnore=True&sort=relevancedesc&searchTerm=Azure+Remote+or+RemoteApp
 [Forum-SO-AzureAD]: http://stackoverflow.com/questions/tagged/azure-active-directory
 [Forum-SO-AzureRMS]: http://stackoverflow.com/questions/tagged/rights-management
+[Forum-SO-Dotnet]: http://stackoverflow.com/questions/tagged/.net
+[Forum-SO-Dotnet-Core]: http://stackoverflow.com/questions/tagged/.net-core
 [Forum-SO-Main]: http://stackoverflow.com/tags
 [Forum-SO-Intune]: http://stackoverflow.com/questions/tagged/intune
 [Forum-SO-MFA]: http://stackoverflow.com/search?q=%5Bazure%5D+multi-factor
@@ -235,4 +242,3 @@ This is not an exhaustive list, but here are a few ideas for Markdown editors th
 [Forum-SO-RemoteApp]: http://stackoverflow.com/questions/tagged/remoteapp
 [Forum-TechNet-Main]: https://social.technet.microsoft.com/Forums/home
 [Forum-Yammer-AzureRMS]: https://www.yammer.com/AskIPTeam
-
