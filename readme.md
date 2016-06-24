@@ -79,6 +79,7 @@ If you're not already familiar with making Github contributions, you will also n
 
 * If you submit a pull request with new files or significant changes to documentation or code samples, we may also need to correspond with you in the pull request, asking you to submit an online Contribution License Agreement (CLA).
 * Minor corrections or clarifications you submit for documentation and code examples in the repository are covered by the [Microsoft Terms of Use (ToU)](https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx).
+* All repositories that contribute to docs.microsoft.com content have adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 * If you are a Microsoft employee, please always make your contributions via a fork, and use the internal repository that hosts your content. This will ensure your contributions run through the build process, providing validation and affording you a staging environment for evaluating/testing your changes.
 *  See the [Resources](#resources) section below for more information on Git concepts such as repositories, forks, branches, pull requests, etc.  
 
