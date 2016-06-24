@@ -31,7 +31,7 @@ This is the main page of the Contributor Guide, which is broken into the followi
 
 You can contribute to docs.microsoft.com content and community in a few different ways:
 <!--- Using the comments is fine for external contributors, but we want PMs to use github; is that something we message through training alone? ---> 
-* **Submit feedback/questions** directly in a [docs.microsoft.com](https://docs.microsoft.com/) article. There are 2 ways of doing this, both of which require you to first sign in to Livefyre ([sign up](https://livefyre.zendesk.com/hc/en-us/articles/200329426-How-do-I-create-a-Livefyre-Account-) with an existing social account, or create a Livefyre account using a designated email address) :
+* **Submit feedback/questions** directly in a [docs.microsoft.com](https://docs.microsoft.com/) article. There are 2 ways of doing this, both of which require you to first sign in to Livefyre ([sign up](https://livefyre.zendesk.com/hc/en-us/articles/200329426-How-do-I-create-a-Livefyre-Account-) with an existing social account, or create a Livefyre account using a designated email address):
   * General comments can be provided by using the "Comments" feature at the bottom of the article page
   * Context-specific comments can be embedded in the related section/paragraph, by hovering the text and clicking the "sidenote" caption icon
 * **Participate in community discussion**, such as a Microsoft [TechNet][Forum-TechNet-Main] or [MSDN][Forum-MSDN-Main] form, or [Stack Overflow][Forum-SO-Main] discussion. See the [Repository organization](#repository-organization) section below for service-specific examples.
@@ -40,15 +40,15 @@ You can contribute to docs.microsoft.com content and community in a few differen
 The remainder of this article is devoted to the last option, providing additional detail on how you can use the GitHub Pull Request feature to make contributions. 
 ## Contributing via GitHub pull request
 
-GitHub is a hosting service for Git repositories, which is where docs.microsoft.com content is stored. A Git *repository* (aka: *repo*) is a conceptual container for one or more branches. A *branch* contains the actual folders/files that make up the set of content for a project. Branches and can also be used for versioning, with the 'master' branch serving as the main plan-of-record for the project.
+GitHub is a hosting service for Git repositories, which is where docs.microsoft.com content is stored. A Git *repository* (also known as *repo*) is a conceptual container for one or more branches. A *branch* contains the actual folders/files that make up the set of content for a project. Branches and can also be used for versioning, with the 'master' branch serving as the main plan-of-record for the project.
 
-A *pull request* provides a convenient way to bundle up a series of proposed changes (aka: *commits*) stored in a contributor's source branch, allowing GitHub to first model the changes that would occur if they were *merged* in the target 'master' branch, then eventually merge them. A pull request also serves as a mechanism for you and the pull request reviewer to have a conversation about the changes if necessary, and cover any potential questions or issues before your changes are merged into the target branch. 
+A *pull request* provides a convenient way to bundle up a series of proposed changes (also known as *commits*) stored in a contributor's source branch, allowing GitHub to first model the changes that would occur if they were *merged* in the target 'master' branch, then eventually merge them. A pull request also serves as a mechanism for you and the pull request reviewer to have a conversation about the changes if necessary, and cover any potential questions or issues before your changes are merged into the target branch. 
 
 There are a couple of different ways of contributing by pull request, depending on the size of changes you would like to propose.
 
 #### Minor contributions: using the GitHub editor
 
-If you're looking for a quick way to make a minor contribution, you can do this directly in the GitHub Web page that corresponds to the article/file in which you would like to propose changes. This requires little/no knowledge of Git versioning workflow, and you can start this process by using either of the following methods :
+If you're looking for a quick way to make a minor contribution, you can do this directly in the GitHub Web page that corresponds to the article/file in which you would like to propose changes. This requires little/no knowledge of Git versioning workflow, and you can start this process by using either of the following methods:
 
 * Visit the specific article on [https://docs.microsoft.com/](https://docs.microsoft.com/),  then click the **Edit** link in the upper-right corner of the article:
  
@@ -60,9 +60,9 @@ Both of these will allow you to navigate directly into the GitHub page that serv
 
 ![GitHub profile example](./ContributorGuide/media/tools-and-setup/editicon.png) 
 
-From here, you can specify your changes using the GitHub file editor. If you need to create/upload new files, we prefer you follow the instructions in the [Large submissions section](#large-submissions-creating-your-own-local-repository). However, if you really need to, it's also possible to do via the GitHub UI : 
+From here, you can specify your changes using the GitHub file editor. If you need to create/upload new files, we prefer you follow the instructions in the [Large submissions section](#large-submissions-creating-your-own-local-repository). However, if you really need to, it's also possible to do via the GitHub UI: 
 
-- [Creating files on Github](https://github.com/blog/1327-creating-files-on-github)
+- [Creating files on GitHub](https://github.com/blog/1327-creating-files-on-github)
 - [Upload files to your repositories](https://github.com/blog/2105-upload-files-to-your-repositories)
 
 When you're finished, scroll to the bottom of the page where you can **Propose file change**, which is the default option when you have read access to the repository. Users with read access will then be directed to a working branch in their own fork of the repository (GitHub will automatically create both the fork and branch for you, if either/both do not already exist), and be presented with a "Create pull request" page to create a new entry in the repo's pull request queue. For more information on the entire workflow, see the [Editing files in another user's repository](https://help.github.com/articles/editing-files-in-another-user-s-repository/) GitHub article.
@@ -71,9 +71,9 @@ When you're finished, scroll to the bottom of the page where you can **Propose f
 
 #### Large submissions: creating your own local repository
 
-If you are making substantial changes to an existing article, adding or changing images, or contributing a new article, you will need to manually create your GitHub fork, then clone the fork down to your local computer. A *fork* is a GitHub-based replica of the main repository, under your GitHub account, which provides you with a working copy which you can use in isolation. It is from your fork that you will create Pull Requests, which will target a docs.microsoft.com repository. Similarly, a *clone* is a local based replica of repository which, in this case, will be a clone of your fork. The clone allows you to work on Git repositories offline, and using more powerful native software/tools.
+If you are making substantial changes to an existing article, adding or changing images, or contributing a new article, it is recommended that you first open an issue in the associated docs.microsoft.com repository to discuss the nature of your change and get approval. With substantial changes, you will need to manually create your GitHub fork, then clone the fork down to your local computer. A *fork* is a GitHub-based replica of the main repository, under your GitHub account, which provides you with a working copy which you can use in isolation. It is from your fork that you will create Pull Requests, which will target a docs.microsoft.com repository. Similarly, a *clone* is a local based replica of the repository which, in this case, will be a clone of your fork. The clone allows you to work on Git repositories offline, and using more powerful native software/tools.
 
-If you're not already familiar with making Github contributions, you will also need to install a local Git tool such as Git Bash, a Markdown editor, and learn some Git commands. The [Get started using a local repository](#get-started-using-a-local-repository) section will have more details on this. This may seem confusing if you've never used Git or Github, but after a few weeks of usage, it will become second nature.
+If you're not already familiar with making Github contributions, you will also need to install a local Git tool such as Git Bash, a Markdown editor, and learn some Git commands. The [Get started using a local repository](#get-started-using-a-local-repository) section will have more details on this. This may seem confusing if you've never used Git or GitHub, but after a few weeks of usage, it will become second nature.
 
 #### Additional considerations
 
@@ -84,7 +84,7 @@ If you're not already familiar with making Github contributions, you will also n
 
 ## Repository organization
 
-The content published to docs.microsoft.com is partitioned into several public GitHub repositories. The table below enumerates the current set of docs.microsoft.com landing pages, the GitHub repository that contains the associated articles, and the related discussion forum(s) :
+The content published to docs.microsoft.com is partitioned into several public GitHub repositories. The table below enumerates the current set of docs.microsoft.com landing pages, the GitHub repository that contains the associated articles, and the related discussion forum(s):
 
 | Main Landing Page | Solution/Service Landing Page | GitHub Org/Repository | Discussion Forum(s) |
 |:---------------------------:|:-------------------------------------------:|:-------------------------:|:----------------------------:|
@@ -99,7 +99,7 @@ The content published to docs.microsoft.com is partitioned into several public G
 | [.NET][Dotnet-Page] |     |     | [Stack Overflow][Forum-SO-Dotnet] |
 |     | [.NET Core][Dotnet-Core-Page] | [dotnet/core-docs][Dotnet-Core-Repo] | [Stack Overflow][Forum-SO-Dotnet-Core] |
 
-The content in each repository is loosely aligned with the organization of the articles on the corresponding [https://docs.microsoft.com/](https://docs.microsoft.com/) landing pages. A series of subdirectories are used for separation of usage scenarios/stages (ie: Understand & Explore, Deploy & Use, etc), along with media content (ie: image files) and include files (Markdown files that are reused across multiple main articles).
+The content in each repository is loosely aligned with the organization of the articles on the corresponding [https://docs.microsoft.com/](https://docs.microsoft.com/) landing pages. A series of subdirectories are used for separation of usage scenarios/stages (that is, Understand & Explore, Deploy & Use, etc.), along with media content (that is, image files) and include files (Markdown files that are reused across multiple main articles).
 
 #### Main articles directory
 
@@ -108,7 +108,7 @@ The main articles directory is found directly off the root of the repository, an
 Within the root of this directory are general articles that relate to the overall service, along with another series of subdirectories, which match the common scenarios as outlined on the main landing page for the service. For instance, the Intune "Understand & Explore" articles are in the `/Understand` subdirectory, "Deploy & Use" articles are found in the `/DeployUse` subdirectory, etc.  
 
 * **Article file names:** Note that file names use the following rules:
-    * Contain only lowercase letters, numbers, and hyphens. Windows operating systems are case insensitive, so if you need to rename a file's casing from upper/mixed to lower, you can use the following Git command (use the proper casing as well for both file names) :
+    * Contain only lowercase letters, numbers, and hyphens. Windows operating systems are case insensitive, so if you need to rename a file's casing from upper/mixed to lower, you can use the following Git command (use the proper casing as well for both file names):
 
             git mv <main-directory/scenario-directory/current-file-name.md> <main-directory/scenario-directory/new-file-name.md>
     * No spaces or punctuation characters. Use the hyphens to separate words and numbers in the file name.
@@ -131,7 +131,7 @@ For convenience, the root directory of each repository contains a Markdown templ
 
 - A **metadata header** at the top of the file, delineated by two, 3-hyphen lines, and containing the various tags used for tracking information relating to the article. Article metadata enables certain functionality, such as author attribution, contributor attribution, breadcrumbs, article descriptions, and SEO optimizations as well as reporting processes used by Microsoft to evaluate the performance of the content. So the metadata is important!
 - A **"Metadata" section** that describes the various metadata tags and values. If you're unsure of the values to use for the metadata section, you can leave them blank, or comment them with a leading hashtag (#) and they will be reviewed/completed by the pull request reviewer for the repository.
-- Various **examples of using Markdown** to format the elements of an artice article.
+- Various **examples of using Markdown** to format the elements of an article.
 - General **instructions on the use of Markdown extensions**, which can be used for various types of alerts.
 - Examples of **embedding video** using an iframe.
 - General **instructions on the use of docs.microsoft.com extensions**, which can be used for special controls such as buttons and selectors.
@@ -176,7 +176,7 @@ When you're ready to embark on creating a local repository and submitting a pull
   * The [GitHub glossary](https://help.github.com/articles/github-glossary) is a good source for basic terminology and definitions. In addition, [this StackOverflow thread](http://stackoverflow.com/questions/7076164/terminology-used-by-git.) contains a glossary of Git terms you'll encounter throughout the Contributor Guide.
   * The [Learn Git course by Codecademy](https://www.codecademy.com/learn/learn-git) provides a 2 hour introduction to Git.
   * Another good beginner course can be found on [Code School](https://www.codeschool.com/courses/try-git). 
-  * GitHub also has a great [Resources for learning Git and Github page](https://help.github.com/articles/good-resources-for-learning-git-and-github/), which includes several tutorials/primers, cheat sheets, and video resources.
+  * GitHub also has a great [Resources for learning Git and GitHub page](https://help.github.com/articles/good-resources-for-learning-git-and-github/), which includes several tutorials/primers, cheat sheets, and video resources.
   * The free [Pro Git e-book](http://git-scm.com/book/en/v2) provides excellent depth if you are new to Git, and also serves as a good reference.
 * As mentioned, we recommend and primarily use the Git Bash command-line environment for proposing larger contributions via a personal fork of a repository. When you're ready to install the tools, check out [Software Freedom Conservancy's Git download page](https://git-scm.com/downloads) for the available Git implementations by platform.
 * As you become more familiar with Git and GitHub, the following articles may be helpful:
@@ -196,12 +196,12 @@ All of the articles in this repository use [GitHub flavored Markdown](https://he
 This is not an exhaustive list, but here are a few ideas for Markdown editors that you may wish to try:
 
 - **Atom**: GitHub's Atom Markdown editor: [http://atom.io](http://atom.io). It does not require a license for business use. It has spell check. 
-- **Prose**: This is a lightweight, elegant, on-line, and open source Markdown editor that offers a preview. Visit [http://prose.io](http://prose.io) and authorize Prose in your repository.
+- **Prose**: This is a lightweight, elegant, on-line, and open source Markdown editor that offers a preview. Visit  [http://prose.io](http://prose.io) and authorize Prose in your repository.
 - **[Visual Studio Code](https://www.visualstudio.com/products/code-vs.aspx)** - A lightweight but powerful source code editor which runs on your desktop and is available for Windows, OS X and Linux. 
 - **Notepad**: You can use Notepad for a very lightweight option.
 
 <!---- Reference links for Docs landing pages, associated GitHub repositories, and related Forums matrix. ------------------>
-<!---- PLEASE INSERT URLS IN ASCENDING SORT ORDER, AND REMOVE LOCALE SEGMENT FROM URLS (ie: en-us) FOR LOCALIZED FORUMS! -->
+<!---- PLEASE INSERT URLS IN ASCENDING SORT ORDER, AND REMOVE LOCALE SEGMENT FROM URLS (that is, en-us) FOR LOCALIZED FORUMS! -->
 [Dotnet-Page]: https://docs.microsoft.com/dotnet
 [Dotnet-Core-Page]: https://docs.microsoft.com/dotnet/core/welcome
 [Dotnet-Core-Repo]: https://github.com/dotnet/core-docs
