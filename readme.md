@@ -203,7 +203,7 @@ This is not an exhaustive list, but here are a few ideas for Markdown editors th
 <!---- Reference links for Docs landing pages, associated GitHub repositories, and related Forums matrix. ------------------>
 <!---- PLEASE INSERT URLS IN ASCENDING SORT ORDER, AND REMOVE LOCALE SEGMENT FROM URLS (that is, en-us) FOR LOCALIZED FORUMS! -->
 [Dotnet-Page]: https://docs.microsoft.com/dotnet
-[Dotnet-Core-Page]: https://docs.microsoft.com/dotnet/core/welcome
+[Dotnet-Core-Page]: https://docs.microsoft.com/en-us/dotnet/articles/core/index
 [Dotnet-Core-Repo]: https://github.com/dotnet/core-docs
 [EM-ATA-Land]: https://docs.microsoft.com/advanced-threat-analytics/
 [EM-ATA-Repo]: https://github.com/Microsoft/ATADocs
