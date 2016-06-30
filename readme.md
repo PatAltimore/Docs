@@ -31,9 +31,10 @@ This is the main page of the Contributor Guide, which is broken into the followi
 
 You can contribute to docs.microsoft.com content and community in a few different ways:
 <!--- Using the comments is fine for external contributors, but we want PMs to use github; is that something we message through training alone? ---> 
-* **Submit feedback/questions** directly in a [docs.microsoft.com](https://docs.microsoft.com/) article. There are 2 ways of doing this, both of which require you to first sign in to Livefyre ([sign up](https://livefyre.zendesk.com/hc/en-us/articles/200329426-How-do-I-create-a-Livefyre-Account-) with an existing social account, or create a Livefyre account using a designated email address):
+* **Submit article feedback/questions** directly in a [docs.microsoft.com](https://docs.microsoft.com/) article. There are 2 ways of doing this, both of which require you to first sign in to Livefyre ([sign up](https://livefyre.zendesk.com/hc/en-us/articles/200329426-How-do-I-create-a-Livefyre-Account-) with an existing social account, or create a Livefyre account using a designated email address):
   * General comments can be provided by using the "Comments" feature at the bottom of the article page
   * Context-specific comments can be embedded in the related section/paragraph, by hovering the text and clicking the "sidenote" caption icon
+* **Submit or vote for site suggestions** on the [Docs.microsoft.com User Voice site](https://msdocs.uservoice.com/forums/364242-general-site-feedback)
 * **Participate in community discussion**, such as a Microsoft [TechNet][Forum-TechNet-Main] or [MSDN][Forum-MSDN-Main] form, or [Stack Overflow][Forum-SO-Main] discussion. See the [Repository organization](#repository-organization) section below for service-specific examples.
 * **Submit a pull request**, which contains your suggested changes to the actual content, targeting content in one of the docs.microsoft.com GitHub repositories. See the [Repository organization](#repository-organization) section below for the list of repositories.
 
