@@ -35,7 +35,7 @@ You can contribute to docs.microsoft.com content and community in a few differen
   * General comments can be provided by using the "Comments" feature at the bottom of the article page
   * Context-specific comments can be embedded in the related section/paragraph, by hovering the text and clicking the "sidenote" caption icon
 * **Submit or vote for site suggestions** on the [Docs.microsoft.com User Voice site](https://msdocs.uservoice.com/forums/364242-general-site-feedback)
-* **Participate in community discussion**, such as a Microsoft [TechNet][Forum-TechNet-Main] or [MSDN][Forum-MSDN-Main] form, or [Stack Overflow][Forum-SO-Main] discussion. See the [Repository organization](#repository-organization) section below for service-specific examples.
+* **Participate in community discussion**, such as a Microsoft [TechNet][Forum-TechNet-Main] or [MSDN][Forum-MSDN-Main] forum, a [Yammer][Forum-Yammer-Main] group, or a [Stack Overflow][Forum-SO-Main] discussion. See the [Repository organization](#repository-organization) section below for service-specific examples.
 * **Submit a pull request**, which contains your suggested changes to the actual content, targeting content in one of the docs.microsoft.com GitHub repositories. See the [Repository organization](#repository-organization) section below for the list of repositories.
 
 The remainder of this article is devoted to the last option, providing additional detail on how you can use the GitHub Pull Request feature to make contributions. 
@@ -244,3 +244,4 @@ This is not an exhaustive list, but here are a few ideas for Markdown editors th
 [Forum-SO-RemoteApp]: http://stackoverflow.com/questions/tagged/remoteapp
 [Forum-TechNet-Main]: https://social.technet.microsoft.com/Forums/home
 [Forum-Yammer-AzureRMS]: https://www.yammer.com/AskIPTeam
+[Forum-Yammer-Main]: https://www.yammer.com/
