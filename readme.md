@@ -30,7 +30,7 @@ This is the main page of the Contributor Guide, which is broken into the followi
 ## How to contribute
 
 You can contribute to docs.microsoft.com content and community in a few different ways:
-<!--- Using the comments is fine for external contributors, but we want PMs to use github; is that something we message through training alone? ---> 
+<!--- Using the comments is fine for external contributors, but we want PMs to use github; is that something we message through training alone? --> 
 * **Submit article feedback/questions** directly in a [docs.microsoft.com](https://docs.microsoft.com/) article. There are 2 ways of doing this, both of which require you to first sign in to Livefyre ([sign up](https://livefyre.zendesk.com/hc/en-us/articles/200329426-How-do-I-create-a-Livefyre-Account-) with an existing social account, or create a Livefyre account using a designated email address):
   * General comments can be provided by using the "Comments" feature at the bottom of the article page
   * Context-specific comments can be embedded in the related section/paragraph, by hovering the text and clicking the "sidenote" caption icon
@@ -167,8 +167,6 @@ When you're ready to embark on creating a local repository and submitting a pull
 1. First read the [Style and voice article](./ContributorGuide/style-and-voice.md). 
 2. Then complete the one-time [Install and setup tools for authoring GitHub content locally](./ContributorGuide/tools-and-setup.md).
 3. [Git commands for creating a new article or updating an existing article](./ContributorGuide/git-commands-for-master.md) will guide you in creating your pull request.
-4. Read [Retire or rename an article](./ContributorGuide/retire-or-rename-an-article.md) if you think a particular article should be removed from publishing.
-5. Microsoft employees should also read [Pull request etiquette and best practices for Microsoft internal contributors](./ContributorGuide/contributor-guide-pull-request-etiquette.md)
 
 ## Resources
 
