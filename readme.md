@@ -4,20 +4,20 @@ Thank you for your interest in [docs.microsoft.com](https://docs.microsoft.com/)
 
 ## Concepts
 
-1. **[Git and GitHub overview](git-and-github-overview.md)** - Quick overview of Git and GitHub.
-2. **[Repository organization](repository-organization.md)** - Overview of the available docs.microsoft.com repositories to which you can contribute, and the associated directory/file structure and format.
+- **[Git and GitHub overview](git-and-github-overview.md)** - Quick overview of Git and GitHub.
+- **[Repository organization](repository-organization.md)** - Overview of the available docs.microsoft.com repositories to which you can contribute, and the associated directory/file structure and format.
 
 ## Initial setup
 
-1. **[One time user account setup](user-account-setup.md)** - Steps to configure on user accounts and permissions required for contributors. *You only need to do this once*.
-2. **[Tools setup](tools-setup.md)** - Steps to install and configure the required tools on a new computer. *You need to do this once per computer*.
-3. **[Git and GitHub repository initial setup](git-and-github-repository-initial-setup.md)** - Initial setup steps to create a local repository for contributions. *You need to do this once per repository per computer*.
+- **[One time user account setup](user-account-setup.md)** - Steps to configure on user accounts and permissions required for contributors. *You only need to do this once*.
+- **[Tools setup](tools-setup.md)** - Steps to install and configure the required tools on a new computer. *You need to do this once per computer*.
+- **[Git and GitHub repository initial setup](git-and-github-repository-initial-setup.md)** - Initial setup steps to create a local repository for contributions. *You need to do this once per repository per computer*.
 
 ## Contribution workflow
 
-1. **[Minor contributions](minor-contributions.md)** - How to use GitHub's Web-based markdown editor to make minor changes. 
-2. **[Major/daily contributions and publishing](contributing-and-publishing.md)** - Detailed steps on how to contribute and publish changes. 
-
+- **[Minor contributions](minor-contributions.md)** - How to use GitHub's Web-based markdown editor to make minor changes. 
+- **[Major/daily contributions and publishing](contributing-and-publishing.md)** - Detailed steps on how to contribute and publish changes. 
+- **[Tutorial](git-github-workflow-tutorial.md)** - Put what you've learned into practice by completing this brief tutorial on our workflow.
 ## Guidance
 
 - **[Markdown](markdown.md)** - Resources for creating content in markdown.
