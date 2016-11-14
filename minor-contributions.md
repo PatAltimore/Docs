@@ -19,7 +19,7 @@ If you're looking for a quick way to make a minor contribution, you can do this 
  
     ![GitHub profile example](./media/tools-and-setup/contributetogit.png) 
 
-- Find the article by browsing the Markdown files in the related repository (See the [Repository organization](./repository-organization.md) for the list of repositories).  
+- Find the article by browsing the Markdown files in the related repository.  
  
 Both of these will allow you to navigate directly into the GitHub page that serves the article source. 
 

@@ -1,6 +1,6 @@
 # Git and GitHub initial setup
 
-Docs.microsoft.com has content in several repositories. See [Repository Organization](./repository-organization.md) for the list of repositories. Once you know the repository to which you will be contributing, you need to do some first time setup. 
+Docs.microsoft.com has content in several repositories. Once you know the repository to which you will be contributing, you need to do some first time setup. 
 
 <video width="640" height="360" controls poster="./media/git-and-github-repository-initial-setup/git-and-github-initial-setup.png">
   <source src="http://video.ch9.ms/ch9/eab1/d9bebd59-bc3d-4aa8-8aa2-86fc2d92eab1/gitrepositorysetup_mid.mp4" type="video/mp4">
