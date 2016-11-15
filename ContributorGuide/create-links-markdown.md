@@ -99,8 +99,7 @@ The words you include in a link should be friendly - in other words, they should
 
 ### Contributors' Guide Links
 
-- [Overview article](./../README.md)
-- [Index of guidance articles](./contributor-guide-index.md)
+- [Overview article](readme.md)
 
 <!--image references-->
 [1]: ./media/create-tables-markdown/table-markdown.png
