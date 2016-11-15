@@ -100,7 +100,7 @@ After you complete this section, you won't have to fork again or enter your cred
 
 ## Next steps
 - [Minor contributions](./minor-contributions.md) 
-- Back to [contributors guide](./readme.md)
+- Back to [contributors guide](./index.md)
 
 <!--Anchors-->
 

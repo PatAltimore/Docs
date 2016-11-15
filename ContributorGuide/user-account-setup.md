@@ -16,4 +16,4 @@ The access token will be used instead of your GitHub password, whenever you need
 
 ## Next steps
 - [Tools setup](./tools-setup.md) 
-- Back to [contributors guide](./readme.md)
+- Back to [contributors guide](./index.md)

@@ -87,7 +87,7 @@ The words you include in a link should be friendly - in other words, they should
 
 **Correct:**
 
-- `For more information, see the [contributor guide index](https://github.com/Microsoft/Docs/blob/master/ContributorGuide/readme.md).`
+- `For more information, see the [contributor guide index](https://github.com/Microsoft/Docs/blob/master/ContributorGuide/index.md).`
 
 - `For more details, see the [SET TRANSACTION ISOLATION LEVEL](https://msdn.microsoft.com/library/ms173763.aspx) reference.`
 
@@ -99,7 +99,7 @@ The words you include in a link should be friendly - in other words, they should
 
 ### Contributors' Guide Links
 
-- [Overview article](readme.md)
+- [Overview article](index.md)
 
 <!--image references-->
 [1]: ./media/create-tables-markdown/table-markdown.png

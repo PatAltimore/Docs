@@ -4,7 +4,7 @@
 
 Now that you've been trained on our git and github workflow, it's time to put what you've learned into practice by completing this simple tutorial. In this example, we will be contributing to the https://github.com/Microsoft/Docs repository.
 
-**NOTE:** This tutorial presupposes that you have already completed the steps described in [Initial Setup](readme.md#initial-setup).
+**NOTE:** This tutorial presupposes that you have already completed the steps described in [Initial Setup](index.md#initial-setup).
 
 ## Fork the repo
 
