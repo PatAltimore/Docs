@@ -14,4 +14,4 @@ GitHub is a web-based Git repository hosting service.  This provides a hosted lo
 
 ## Next steps
 
-- Back to [contributors guide](./readme.md)
+- Back to [contributors guide](./index.md)

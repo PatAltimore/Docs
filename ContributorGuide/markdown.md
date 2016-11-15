@@ -10,4 +10,4 @@ All of the articles in docs.microsoft.com repositories use [GitHub flavored Mark
 
 ## Next steps
 
-- Back to [contributors guide](./readme.md)
+- Back to [contributors guide](./index.md)

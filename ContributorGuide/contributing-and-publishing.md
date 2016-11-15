@@ -118,4 +118,4 @@ A pull request enables the collaboration model on GitHub. By opening a pull requ
 
 ## Next steps
 
-- Back to [contributors guide](./readme.md)
+- Back to [contributors guide](./index.md)
