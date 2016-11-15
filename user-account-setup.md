@@ -6,7 +6,7 @@ To contribute to the docs.microsoft.com technical content, you'll need a [GitHub
 
 ## Permissions in GitHub
 
-Anyone with a GitHub account can contribute to docs.microsoft.com content through one of the [public repositories][DocsPubRepos]. No additional permissions are required for public repositories.
+Anyone with a GitHub account can contribute to docs.microsoft.com content, through one of several public GitHub repositories. Read access to the corresponding public repository is provided from each docs.microsoft.com article, as discussed in [Submitting minor contributions to an existing article](minor-contributions.md).
 
 ## Create an access token
 
