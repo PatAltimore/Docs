@@ -1,5 +1,5 @@
 # Concepts
-## {Git and GitHub overview](git-and-github-overview.md)
+## [Git and GitHub overview](git-and-github-overview.md)
 
 # Initial setup
 ## [One time user account setup](user-account-setup.md)
