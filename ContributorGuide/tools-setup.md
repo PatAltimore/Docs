@@ -40,4 +40,4 @@ Content is authored in a simple "markdown" notation rather than complex "markup"
 ## Next steps
 
 - [Git and GitHub repository initial setup](git-and-github-repository-initial-setup.md)
-- Back to [contributors guide](./readme.md)
+- Back to [contributors guide](./index.md)

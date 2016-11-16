@@ -9,7 +9,7 @@ When you work in the GitHub UI, you are limited in terms of what you can do. Edi
  - Adding new images or updating images
  - Updating an article over a period of days without publishing changes each of those days
 
-If you are performing complex tasks as listed above, review all the steps outlined in the [contributor's guide](./readme.md) for contributing and publishing changes.
+If you are performing complex tasks as listed above, review all the steps outlined in the [contributor's guide](./index.md) for contributing and publishing changes.
 
 ## Using the GitHub editor
 
@@ -35,4 +35,4 @@ Both of these will allow you to navigate directly into the GitHub page that serv
 
 ## Next steps
 - [Contributing and publishing](contributing-and-publishing.md)
-- Back to [contributors guide](./readme.md)
+- Back to [contributors guide](./index.md)

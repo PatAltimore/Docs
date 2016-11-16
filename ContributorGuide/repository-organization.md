@@ -55,7 +55,7 @@ For convenience, the root directory of each repository contains a Markdown templ
 ## Next steps
 
 - [User account setup](./user-account-setup.md)
-- Back to [contributors guide](./readme.md)
+- Back to [contributors guide](./index.md)
 
 
 <!---- Reference links for Docs landing pages, associated GitHub repositories, and related Forums matrix. ------------------>
