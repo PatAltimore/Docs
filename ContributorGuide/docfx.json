@@ -7,7 +7,7 @@
         ],
         "exclude": [
           "**/obj/**",
-          "ContribTest/**",
+          "Contribute/**",
           "**/includes/**"
         ]
       }
@@ -20,7 +20,7 @@
         ],
         "exclude": [
           "**/obj/**",
-          "ContribTest/**",
+          "Contribute/**",
           "**/includes/**"
         ]
       }
@@ -30,6 +30,6 @@
     "globalMetadata": {},
     "fileMetadata": {},
     "template": [],
-    "dest": "ContribTest"
+    "dest": "Contribute"
   }
 }
