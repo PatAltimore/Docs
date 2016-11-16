@@ -2,20 +2,9 @@
 
 ## Install Git for Windows
 
-1. Install [Software Freedom Conservancy's Git for Windows](https://git-scm.com/download). This installs the Git version control system, including Git Bash, the command-line app that you will use to interact with your local Git repository. If you are using another client platform (MacOS or Linux), the installation is similar.
+1. Install [Software Freedom Conservancy's Git](https://git-scm.com/download) on your computer. This installs the Git version control system, including Git Bash, the command-line app that you will use to interact with your local Git repository. Clients are available for Windows, MacOS, Linux, and Solaris.
 
-    You can accept all default settings, unless you want different behavior (ie: commands Git commands are available within the Windows command line, for instance).
-
-
-   ![GitHub profile example](./media/tools-and-setup/gitbashinstall-2102-1.png)
-
-   ![GitHub profile example](./media/tools-and-setup/gitbashinstall-2102-2.png)
-
-   ![GitHub profile example](./media/tools-and-setup/gitbashinstall-2102-3.png)
-
-   ![GitHub profile example](./media/tools-and-setup/gitbashinstall-2102-4.png)
-
-   ![GitHub profile example](./media/tools-and-setup/gitbashinstall-2102-5.png)
+2. During install, you can accept all default settings unless you want different behavior.
 
 > Note: If you prefer a Graphical User Interface over a Command Line Interface, see [Software Freedom Conservancy's available GUI Clients page](https://git-scm.com/downloads/guis), [GitHub's GitHub Desktop](https://desktop.github.com/), or [Visual Studio Code](https://www.visualstudio.com/products/code-vs.aspx) for some popular options. In this guide, we will focus on using the command line interface.
 
