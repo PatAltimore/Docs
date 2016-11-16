@@ -2,7 +2,7 @@
 
 ## Install Git for Windows
 
-1. Install [Software Freedom Conservancy's Git](https://git-scm.com/download) on your computer. This installs the Git version control system, including Git Bash, the command-line app that you will use to interact with your local Git repository. Clients are available for Windows, MacOS, Linux, and Solaris.
+1. Install [Software Freedom Conservancy's Git](https://git-scm.com/download) on your computer. This installs the Git version control system. It includes command-line integration that you will use to interact with your local Git repository. For Windows clients, the Git Bash application provides a bash shell with Git integration. Clients are available for Windows, MacOS, Linux, and Solaris.
 
 2. During install, you can accept all default settings unless you want different behavior.
 
@@ -35,7 +35,7 @@ Content is authored in a simple "markdown" notation rather than complex "markup"
   - You will probably also want to turn on Soft Wrap in this section too, which does the same as "word wrap" in Notepad. 
   - To turn on the markdown preview, click Packages>Markdown Preview>Toggle Preview. You can use Ctrl-Shift-M to toggle the preview HTML view.
 
-> Note: In some cases, git bash will launch an editor. For example, if you forget to add a commit comment.  By default, the editor is vi. See [Associating text editors with Git](https://help.github.com/articles/associating-text-editors-with-git/) for details for configuring Atom. For VS code, the command is **git config --global core.editor "code --wait"**
+> Note: In some cases, bash will launch an editor. For example, if you forget to add a commit comment.  By default, the editor is vi. See [Associating text editors with Git](https://help.github.com/articles/associating-text-editors-with-git/) for details for configuring Atom. For VS code, the command is **git config --global core.editor "code --wait"**. MacOS terminal requires VS Code to be in the PATH. To add in VS Code, type `Shift+Command+P shell` and select *Install 'code' command in PATH*.
 
 ## Next steps
 
