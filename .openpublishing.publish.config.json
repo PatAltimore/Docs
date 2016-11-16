@@ -3,9 +3,9 @@
   "need_generate_intellisense": false,
   "docsets_to_publish": [
     {
-      "docset_name": "ContribTest",
+      "docset_name": "Contribute",
       "build_source_folder": "ContributorGuide",
-      "build_output_subfolder": "ContribTest",
+      "build_output_subfolder": "Contribute",
       "locale": "en-us",
       "version": 0,
       "open_to_public_contributors": true,
