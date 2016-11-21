@@ -48,10 +48,7 @@ Whenever you work on a set of changes, it’s a good idea to create a new branch
    ```
    git push -u origin <working-branch>
    ```
-
-## Committing changes to your local working branch
-
-Git tracks a set of changes in a *commit*. A commit is a group of related changes you've made to several files. This allows you to group snapshots of changes that can be reversed if necessary. 
+## Add or revise articles
 
 1. Before making changes to files in your local repository, verify your working branch. Use the `git branch` command to list the branches available in your local repository.
 
@@ -61,9 +58,14 @@ Git tracks a set of changes in a *commit*. A commit is a group of related change
 
     The current branch will be prefaced with an asterisk.
 
-2. Now, you are ready to make changes in your local repository's working branch. Create your new article or make changes to an existing article in the local working directory (`c:\users\user-account\repository-name\`). Use Windows Explorer to open and create new markdown files, and use your markdown editor to edit them.
+2. Now, you are ready to make changes to your local repository's working branch. You can update articles using the text editor of your choice; if you wish to create a new article, please see [Creating a new docs.microsoft.com article](create-new-article.md).
 
-3. As you create/modify/delete files in your working directory, you first need to "add" them to the staging area (aka: Index), then "commit" them from your working branch into your persisted copy of your branch, on a regular basis:
+
+## Committing changes to your local working branch
+
+Git tracks a set of changes in a *commit*. A commit is a group of related changes you've made to several files. This allows you to group snapshots of changes that can be reversed if necessary. 
+
+1. As you create/modify/delete files in your working directory, you first need to "add" them to the staging area (aka: Index), then "commit" them from your working branch into your persisted copy of your branch, on a regular basis:
 
    ```
    git add -A
