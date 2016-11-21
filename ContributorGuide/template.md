@@ -7,8 +7,8 @@ keywords:
 author: [YOUR GITHUB USERNAME]
 ms.author: 
 manager:
-ms.date: [TODAY'S DATE]
-ms.topic: article
+ms.date: [TODAY'S DATE IN MM/DD/YYYY FORMAT]
+ms.topic:
 ms.prod:
 ms.service:
 ms.technology:
@@ -20,17 +20,17 @@ ms.assetid:
 #audience:
 #ms.devlang:
 #ms.reviewer:
-#ms.suite: ems
+#ms.suite:
 #ms.tgt_pltfrm:
 #ms.custom:
 
 ---
 
-# docs.microsoft.com Article Template
+# docs.microsoft.com article template
 
 This docs.microsoft.com template contains examples of markdown syntax. It is part of the [contributor's guide](/contribute, and referenced in [Create a New docs.microsoft.com Article](create-new-article.md). 
 
-You may find it useful to review both the [raw markdown for this file]() and the [published article](./template.md).
+You may find it useful to review both the [raw markdown for this file](https://raw.githubusercontent.com/Microsoft/Docs/master/ContributorGuide/template.md) and the [published article](./template.md).
 
 ## Basic Markdown and GFM
 
