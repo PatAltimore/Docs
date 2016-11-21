@@ -59,9 +59,7 @@ Git tracks a set of changes in a *commit*. A commit is a group of related change
    git branch
    ```
 
-    The current branch will be prefaced with an asterisk. If you are using Git Bash, the prompt will indicate the current branch in parenthesis. 
-   
-   ![Working branch](./media/contributing-and-publishing/working-branch.png)
+    The current branch will be prefaced with an asterisk.
 
 2. Now, you are ready to make changes in your local repository's working branch. Create your new article or make changes to an existing article in the local working directory (`c:\users\user-account\repository-name\`). Use Windows Explorer to open and create new markdown files, and use your markdown editor to edit them.
 
