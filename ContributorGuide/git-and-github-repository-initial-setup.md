@@ -30,39 +30,38 @@ The clone command performs several actions. It will create a directory on the lo
 
 Cloning is a one time per computer operation.  If you get a new PC, you’ll need to clone your fork to your new machine.
 
-The Git clone command requires GitHub credentials. You can provide credentials using Git Credential Manager for Windows or you can use a GitHub personal access token for each GitHub request. If you installed the latest version of Git for Windows and accepted the default installation, Git Credential Manager is enabled by default. This will allow you to enter your GitHub credentials once for a computer rather than using your personal access token each time you clone a repository. 
+The Git clone command requires GitHub credentials. There are several ways to cache credentials. You can provide credentials using Git Credential Manager for Windows, Git credential helper, or you can use a GitHub personal access token for each GitHub request. 
+- On Windows, you can use Git Credential Manager. Git Credential manager will allow you to enter your GitHub credentials once for a computer rather than using your personal access token each time you clone a repository. 
+- On MacOS and Linux, you can use Git credential helper, please see [Caching your GitHub password in Git](https://help.github.com/articles/caching-your-github-password-in-git/#platform-all).
+- GitHub personal access tokens can be used on any platform. However, you need to configure per repository.
 
-Choose one option below for authenticating to GitHub:
+### Option 1: Authenticate using GitHub credentials with Credential Manager or credential helper.
 
-### Option 1: Authenticate using GitHub Credential Manager for Windows  
-
-1. Launch Git Bash. 
+1. Launch the Git enabled command prompt.
 2. At the command prompt, enter the following command, which will create a directory on your computer using the same as specified in `<repository-name>`. 
 
 > Tip: You can get your fork's GitHub URL for the clone command from the "Clone or download" button in the GitHub UI. ![Clone or download](./media/git-and-github-repository-initial-setup/clone-or-download.png)
 
 ```
-        git clone https://github.com/<your GitHub user name>/<repository-name>-pr.git
+        git clone https://github.com/<your GitHub user name>/<repository-name>.git
 ```
 For example, this clone command could look something like this:
 ```
-        git clone https://github.com/smithj/IntuneDocs-pr.git  
+        git clone https://github.com/smithj/IntuneDocs.git  
 ```
 
 3. When prompted, enter your GitHub credentials.
+   - For Windows Credential Manager, use your GitHub user name and password.
+   - For Git credential helper, use your GitHub user name and personal access token as the password.
 
-![GitHub Login](./media/git-and-github-repository-initial-setup/github-login.png)
+If you're using the default location, your local copy of the repository will be stored in your user's home directory.
 
-> Note: Your credentials should be saved and used to authenticate future GitHub requests. You should only need to do this once per computer.
-
-If you're using the default location, your local copy of the repository will be stored in `c:\users\<your Windows user account>\<repository-name>`.
-
-Since you are using GitHub Credential Manager, skip ahead to the [Set remote for upstream repository](#set-remote-for-upstream-repository) section.
+Since you are caching credentials, skip ahead to the [Set remote for upstream repository](#set-remote-for-upstream-repository) section.
 
 ### Option 2: Authenticate using a GitHub Personal Access Token
 
 1. Copy the Personal Access Token that you got from [https://github.com/settings/tokens](https://github.com/settings/tokens). You likely saved your personal access token when you set up your GitHub account.
-2. Launch Git Bash. 
+2. Launch the Git enabled command prompt. For example, on Windows use *Git bash*, on MacOS use *terminal*, on Linux use *bash* shell.
 3. At the command prompt, enter the following command, which will create a directory on your computer using the same as specified in `<repository-name>`. 
 
    ```
@@ -75,13 +74,13 @@ For example, this clone command could look something like this:
 
 > Note: Since the clone command also configures the remote for "origin", your access token will be saved as part of the remote.
 
-If you're using the default location, your local copy of the repository will be stored in `c:\users\<your Windows user account>\<repository-name>`.
+If you're using the default location, your local copy of the repository will be stored in `<your user account>\<repository-name>`.
 
 ## Set remote for upstream repository
 
 In order to sync the latest changes from the Microsoft repository you also need to set up a remote alias called *upstream* that points to the Microsoft repository. Use the `git remote` command. Note that the `clone` command you used above automatically created a "remote" alias to your forked repository. We will also use the `fetch` command to get branch info from the "upstream" repository for later use.
 
-If using **GitHub Credential Manager**, use the following commands:
+If using a credential helper, use the following commands:
 ```
         cd <repository-name>
         git remote add upstream https://github.com/Microsoft/<repository-name>.git
