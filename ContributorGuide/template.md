@@ -28,9 +28,9 @@ ms.assetid:
 
 # docs.microsoft.com article template
 
-This docs.microsoft.com template contains examples of markdown syntax. It is part of the [contributor's guide](/contribute, and referenced in [Create a new docs.microsoft.com article](create-new-article.md). 
+This docs.microsoft.com template contains examples of markdown syntax. It is part of the [contributor's guide](index.md), and referenced in [Create a new docs.microsoft.com article](create-new-article.md). 
 
-You may find it useful to review both the [raw markdown for this file](https://raw.githubusercontent.com/Microsoft/Docs/master/ContributorGuide/template.md) and the [published article](./template.md).
+You may find it useful to compare the [raw markdown for this file](https://raw.githubusercontent.com/Microsoft/Docs/master/ContributorGuide/template.md) to the [published template](./template.md) to see how markdown elements are rendered in docs.microsoft.com articles.
 
 ## Basic Markdown and GFM
 
