@@ -58,7 +58,7 @@ Our technical articles are translated into many other languages, and some are mo
 
 ## Next steps
 
-- Back to [contributors guide](./readme.md)
+- Back to [contributors guide](./index.md)
 
 <!--Anchors-->
 [Use a customer-friendly voice]: #use-a-customer-friendly-voice

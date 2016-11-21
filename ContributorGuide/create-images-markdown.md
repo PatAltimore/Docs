@@ -18,4 +18,4 @@ After you create the folder and added images to it, use the following syntax to 
 
 ## Next steps
 
-- Back to [contributors guide](./readme.md)
+- Back to [contributors guide](./index.md)

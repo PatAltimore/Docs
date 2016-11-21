@@ -5,7 +5,6 @@ Thank you for your interest in [docs.microsoft.com](https://docs.microsoft.com/)
 ## Concepts
 
 - **[Git and GitHub overview](git-and-github-overview.md)** - Quick overview of Git and GitHub.
-- **[Repository organization](repository-organization.md)** - Overview of the available docs.microsoft.com repositories to which you can contribute, and the associated directory/file structure and format.
 
 ## Initial setup
 
@@ -15,9 +14,12 @@ Thank you for your interest in [docs.microsoft.com](https://docs.microsoft.com/)
 
 ## Contribution workflow
 
+All repositories that contribute to docs.microsoft.com content have adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
 - **[Minor contributions](minor-contributions.md)** - How to use GitHub's Web-based markdown editor to make minor changes. 
 - **[Major/daily contributions and publishing](contributing-and-publishing.md)** - Detailed steps on how to contribute and publish changes. 
 - **[Tutorial](git-github-workflow-tutorial.md)** - Put what you've learned into practice by completing this brief tutorial on our workflow.
+
 ## Guidance
 
 - **[Markdown](markdown.md)** - Resources for creating content in markdown.

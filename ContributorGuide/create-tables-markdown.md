@@ -21,7 +21,7 @@ For more information about how to create tables in markdown, see:
 
 ## Next steps
 
-- Back to [contributors guide](./readme.md)
+- Back to [contributors guide](./index.md)
 
 <!--image references-->
 [1]: ./media/create-tables-markdown/table-markdown.png
