@@ -13,9 +13,9 @@ Your individual workflow for contributing content is a repetitive cycle.  Change
 
 Whenever you work on a set of changes, it’s a good idea to create a new branch to manage those changes through the workflow.
 
-1. Launch Git Bash.
+1. Launch the Git enabled command prompt. For example, on Windows use *Git bash*, on MacOS use *terminal*, on Linux use *bash* shell.
 
-2. Switch context to your `<repository-name>`. Recall that this maps to a local working directory on your computer, under the path `c:\users\user-account\repository-name\` 
+2. Switch context to your `<repository-name>`. This is a local directory on your computer. For example, `c:\users\user-account\repository-name\` or  `/user/user-account/repository-name`
 
    ```
    cd <repository-name>
@@ -59,7 +59,7 @@ Git tracks a set of changes in a *commit*. A commit is a group of related change
    git branch
    ```
 
-    The current branch will be prefaced with an asterisk. Also, the Git Bash prompt will indicate the current branch in parenthesis. 
+    The current branch will be prefaced with an asterisk. If you are using Git Bash, the prompt will indicate the current branch in parenthesis. 
    
    ![Working branch](./media/contributing-and-publishing/working-branch.png)
 

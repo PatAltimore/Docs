@@ -1,8 +1,8 @@
 # Tools setup
 
-## Install Git for Windows
+## Install Git
 
-1. Install [Software Freedom Conservancy's Git](https://git-scm.com/download) on your computer. This installs the Git version control system. It includes command-line integration that you will use to interact with your local Git repository. For Windows clients, the Git Bash application provides a bash shell with Git integration. Clients are available for Windows, MacOS, Linux, and Solaris.
+1. Install [Software Freedom Conservancy's Git](https://git-scm.com/download) on your computer. This installs the Git version control system. It includes command-line integration options you will use to interact with your local Git repository. Clients are available for Windows, MacOS, Linux, and Solaris. 
 
 2. During install, you can accept all default settings unless you want different behavior.
 
@@ -12,7 +12,7 @@
 
 To ensure you are listed correctly as a contributor, you need to configure your user name and email locally in Git.
 
-1. Launch the Git Bash command prompt. 
+1. Launch the Git enabled command prompt. For example, on Windows use *Git bash*, on MacOS use *terminal*, on Linux use *bash* shell.
 
 2. Configure your user name so it matches your name as you set it up in your GitHub profile:
 
