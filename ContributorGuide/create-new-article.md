@@ -59,6 +59,6 @@ Here are steps on creating a new article within a docs.microsoft.com Github repo
 
 ## See also
 
-* [docs.microsoft.com Contributor's guide](index.md)
+* [docs.microsoft.com contributor's guide](index.md)
 * [Major contributions and publishing](contributing-and-publishing.md)
 * [docs.microsoft.com article template](template.md)

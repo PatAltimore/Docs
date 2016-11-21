@@ -48,7 +48,8 @@ Whenever you work on a set of changes, it’s a good idea to create a new branch
    ```
    git push -u origin <working-branch>
    ```
-## Add or revise articles
+
+## Creating and updating articles
 
 1. Before making changes to files in your local repository, verify your working branch. Use the `git branch` command to list the branches available in your local repository.
 

@@ -28,7 +28,7 @@ ms.assetid:
 
 # docs.microsoft.com article template
 
-This docs.microsoft.com template contains examples of markdown syntax. It is part of the [contributor's guide](/contribute, and referenced in [Create a New docs.microsoft.com Article](create-new-article.md). 
+This docs.microsoft.com template contains examples of markdown syntax. It is part of the [contributor's guide](/contribute, and referenced in [Create a new docs.microsoft.com article](create-new-article.md). 
 
 You may find it useful to review both the [raw markdown for this file](https://raw.githubusercontent.com/Microsoft/Docs/master/ContributorGuide/template.md) and the [published article](./template.md).
 
@@ -165,15 +165,11 @@ This is an example of `in-line code`.
 
 ### Static Image
 
-![this is the alt text](./media/AzRMS_elements.png)
+![this is the alt text](media/azure.png)
 
 ### Linked Image
 
-[![alt text for linked image](./media/AzRMS_elements.png)](https://azure.microsoft.com) 
-
-### Animated gif
-
-![animated gif](./media/hololens.gif)
+[![alt text for linked image](./media/azure.png)](https://docs.microsoft.com) 
 
 ## Alerts
 
