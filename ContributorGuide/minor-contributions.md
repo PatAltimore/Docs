@@ -25,7 +25,7 @@ Both of these will allow you to navigate directly into the GitHub page that serv
 
 1. Click the **Edit this file** pencil icon in the upper right to go into edit mode:
 
-![GitHub profile example](./media/tools-and-setup/editicon.png) 
+   ![GitHub profile example](./media/tools-and-setup/editicon.png) 
 
 2. From here, you can specify your changes using the GitHub file editor.
 - [Creating files on GitHub](https://github.com/blog/1327-creating-files-on-github)
