@@ -57,9 +57,9 @@ Whenever you work on a set of changes, it’s a good idea to create a new branch
    git branch
    ```
 
-    The current branch will be prefaced with an asterisk.
+    The current branch will be prefaced with an asterisk. Verify your current branch is the branch you created in the previous section.  If not, use Git's checkout command to switch branches.
 
-2. Now, you are ready to make changes in your local repository's working branch. Create your new article or make changes to an existing article in the local working directory (e.g. the user's home directory in the filesystem). Use a text or markdown editor to edit or create markdown files.
+2. Now, you are ready to make changes in your local repository's working branch. Create your new article or make changes to an existing article in the local working directory (e.g. the user's home directory in the file system). Use a text or markdown editor to edit or create markdown files.
 
 3. After you create/modify/delete files in your working directory, you need to "add" them to staging, then "commit" them into the branch:
 
