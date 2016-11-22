@@ -99,7 +99,7 @@ Whenever you work on a set of changes, it’s a good idea to create a new branch
 
 A pull request enables the collaboration model on GitHub. By opening a pull request, you are asking to pull the changes from your working branch and merge them into the main repository. When you open a pull request, your changes are validated by a series of automated checks to verify it can be merged.  A person called the pull request reviewer also looks at your changes and gives you feedback.
 
-1. When you are ready to submit your content to the upstream master branch for staging, validation, and publishing, go to the GitHub page for your fork. For example, github.com/<GitHub-user-name>/Azure-RMS. 
+1. When you are ready to submit your content to the upstream master branch for staging, validation, and publishing, go to the GitHub page for your fork. For example, github.com<GitHub-user-name>/Azure-RMS. 
 
 2. Create a Pull Request from your fork's working branch to the docs.microsoft.com repository's master branch. Click the *New pull request* button.
 
