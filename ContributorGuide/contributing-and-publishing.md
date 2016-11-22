@@ -1,8 +1,8 @@
-# Major and/or daily contributions and publishing
+# Major contributions and publishing
 
 > All repositories that contribute to docs.microsoft.com content have adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-Your individual workflow for contributing content is a repetitive cycle.  Changes flow through the three repositories. 
+If you have a large contribution with several files or new files, we recommend using the following workflow for contributing content. This is the workflow content developers at Microsoft use. 
 
 <video width="640" height="360" controls poster="./media/contributing-and-publishing/your-individual-workflow.png">
   <source src="http://video.ch9.ms/ch9/1e1b/63477be7-a3df-4d25-b8e7-9d79df411e1b/githubcontributorworkflow_mid.mp4" type="video/mp4">
