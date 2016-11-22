@@ -11,18 +11,18 @@ Docs.microsoft.com has content in several repositories. Once you know the reposi
 
 ## Create a fork of the repository in GitHub
 
-When you first start contributing to a repository, you need to “fork” it. A fork is your personal copy of a repository in GitHub. Think of it as your sandbox on GitHub. When you fork the main repository, you get a copy of all the branches in your fork. 
+When you first start contributing to a repository, you need to create a *fork*. A fork is your personal copy of a repository in GitHub.  When you fork the main repository, you get a copy of all the branches in your fork. 
 
 1. Navigate to the repository's main GitHub page and click the *Fork* button in the upper right. 
 2. If prompted, select your GitHub account as the destination where the fork should be created. This creates a copy of the repository within your GitHub account. 
 
-![GitHub profile example](./media/tools-and-setup/fork.png)
+   ![GitHub profile example](./media/tools-and-setup/fork.png)
 
 > Note: **You only need to fork one time** per repository. All the following steps need to be done per computer.
 
 ## Clone a copy of the forked repository to your computer
 
-Next you need to *clone* a local copy of your fork. Cloning creates a local copy of a repository on your computer. When you clone, it will copy the master branch from your forked repository into a directory on you local computer.
+Cloning creates a local copy of a repository on your computer. When you clone, it will copy the master branch from your forked repository into a directory on you local computer.
 
 - Be sure to **clone your fork** not the Microsoft repository.  Otherwise, you won’t be able to contribute changes. The main repository is referenced with the organization name Microsoft `github.com/Microsoft/repo-name`. Your fork is referenced using your GitHub user name `github.com/GitHubUsername/repo-name`.
 - The clone command performs several actions. It will create a directory on the local file system, initialize the local repository, and copy all the files from the master branch. Clone also sets up a remote alias called *origin* that points to your forked repository. 
