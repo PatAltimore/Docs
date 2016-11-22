@@ -1,5 +1,7 @@
 # Submitting minor contributions to an existing article
 
+> All repositories that contribute to docs.microsoft.com content have adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
 If you only need or want to make textual updates/corrections to an existing article, you can use GitHub's Web-based markdown editor to submit your changes. 
 
 When you work in the GitHub UI, you are limited in terms of what you can do. Editing directly in the GitHub UI is **not recommended** for the following types of tasks:

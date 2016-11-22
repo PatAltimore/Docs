@@ -1,5 +1,7 @@
 # Major and/or daily contributions and publishing
 
+> All repositories that contribute to docs.microsoft.com content have adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
 Your individual workflow for contributing content is a repetitive cycle.  Changes flow through the three repositories. 
 
 <video width="640" height="360" controls poster="./media/contributing-and-publishing/your-individual-workflow.png">
@@ -57,9 +59,9 @@ Whenever you work on a set of changes, it’s a good idea to create a new branch
    git branch
    ```
 
-    The current branch will be prefaced with an asterisk.
+    The current branch will be prefaced with an asterisk. Verify your current branch is the branch you created in the previous section.  If not, use Git's checkout command to switch branches.
 
-2. Now, you are ready to make changes in your local repository's working branch. Create your new article or make changes to an existing article in the local working directory (e.g. the user's home directory in the filesystem). Use a text or markdown editor to edit or create markdown files.
+2. Now, you are ready to make changes in your local repository's working branch. Create your new article or make changes to an existing article in the local working directory (e.g. the user's home directory in the file system). Use a text or markdown editor to edit or create markdown files.
 
 3. After you create/modify/delete files in your working directory, you need to "add" them to staging, then "commit" them into the branch:
 
