@@ -1,3 +1,5 @@
+# [Contributor guide home](index.md)
+
 # Concepts
 ## [Git and GitHub overview](git-and-github-overview.md)
 
