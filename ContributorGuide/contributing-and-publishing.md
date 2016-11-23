@@ -59,7 +59,7 @@ Whenever you work on a set of changes, it’s a good idea to create a new branch
 
     The current branch will be prefaced with an asterisk.
 
-2. Now, you are ready to make changes to your local repository's working branch. You can update articles using the text editor of your choice; if you wish to create a new article, please see [Creating a new docs.microsoft.com article](create-new-article.md).
+2. Now, you are ready to make changes to your local repository's working branch. You can update articles using the text editor of your choice; if you wish to create a new article, please see [Creating a new docs.microsoft.com article](./create-new-article.md).
 
 
 ## Committing changes to your local working branch
