@@ -3,7 +3,7 @@
 Your individual workflow for contributing content is a repetitive cycle.  Changes flow through the three repositories. 
 
 <video width="640" height="360" controls poster="./media/contributing-and-publishing/your-individual-workflow.png">
-  <source src="http://video.ch9.ms/ch9/1e1b/63477be7-a3df-4d25-b8e7-9d79df411e1b/githubcontributorworkflow_mid.mp4" type="video/mp4">
+  <source src="http://video.ch9.ms/ch9/1e1b/63477be7-a3df-4d25-b8e7-9d79df411e1b/githubcontributorworkflow_mid.mp4" type="video/mp4">
   <a href="http://video.ch9.ms/ch9/1e1b/63477be7-a3df-4d25-b8e7-9d79df411e1b/githubcontributorworkflow_mid.mp4">
     <img src="./media/contributing-and-publishing/your-individual-workflow.png" alt="Your individual workflow">
   </a>
@@ -59,7 +59,7 @@ Whenever you work on a set of changes, it’s a good idea to create a new branch
 
     The current branch will be prefaced with an asterisk.
 
-2. Now, you are ready to make changes to your local repository's working branch. You can update articles using the text editor of your choice; if you wish to create a new article, please see [Creating a new docs.microsoft.com article](create-new-article.md).
+2. Now, you are ready to make changes to your local repository's working branch. You can update articles using the text editor of your choice; if you wish to create a new article, please see [Creating a new docs.microsoft.com article](./create-new-article.md).
 
 
 ## Committing changes to your local working branch
