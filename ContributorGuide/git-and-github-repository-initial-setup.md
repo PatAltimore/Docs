@@ -22,17 +22,17 @@ When you first start contributing to a repository, you need to create a *fork*. 
 
 ## Clone a copy of the forked repository to your computer
 
-Cloning creates a local copy of a repository on your computer. When you clone, it will copy the master branch from your forked repository into a directory on you local computer.
+Cloning creates a local copy of a repository on your computer. When you clone, it copies the master branch from your forked repository into a directory on you local computer.
 
 - Be sure to **clone your fork** not the Microsoft repository.  Otherwise, you won’t be able to contribute changes. The main repository is referenced with the organization name Microsoft `github.com/Microsoft/repo-name`. Your fork is referenced using your GitHub user name `github.com/GitHubUsername/repo-name`.
-- The clone command performs several actions. It will create a directory on the local file system, initialize the local repository, and copy all the files from the master branch. Clone also sets up a remote alias called *origin* that points to your forked repository. 
+- The clone command performs several actions. It creates a directory on the local file system, initializes the local repository, and copies all the files from the master branch. Clone also sets up a remote alias called *origin* that points to your forked repository. 
 - Cloning is a one time per computer operation.  If you get a new PC, you’ll need to clone your fork to your new machine.
 
-The Git clone command requires GitHub credentials. There are several ways to cache credentials. The following method will work on all platforms:
+The Git clone command requires GitHub credentials. There are several ways to cache credentials. The following method works on all platforms:
 
 1. Copy the Personal Access Token that you got from [https://github.com/settings/tokens](https://github.com/settings/tokens). You likely saved your personal access token when you set up your GitHub account.
 2. Launch the Git enabled command prompt. For example, on Windows use *Git bash*, on MacOS use *terminal*, on Linux use *bash* shell.
-3. At the command prompt, enter the following command, which will create a directory on your computer using the same as specified in `<repository-name>`. 
+3. At the command prompt, enter the following command, which creates a directory on your computer using the same name as specified in `<repository-name>`. 
 
    ```
    git clone https://[your GitHub user name]:[token]@github.com/<your GitHub user name>/<repository-name>.git
@@ -42,7 +42,7 @@ The Git clone command requires GitHub credentials. There are several ways to cac
    git clone https://smithj:b428654321d613773d423ef2f173ddf4a312345@github.com/smithj/IntuneDocs.git  
    ```
 
-If you're using the default location, your local copy of the repository will be stored in `<your user account>\<repository-name>`.
+If you're using the default location, your local copy of the repository is stored in `<your user account>\<repository-name>`.
 
 ## Set remote for upstream repository
 
@@ -61,7 +61,7 @@ After you complete this section, you won't have to fork again or enter your cred
 ## Optional: Credential Manager / Credential helper
 
 There are additional ways to cache credentials such as Git Credential Manager and Git credential helper. If you are interested in these, please see the following:
-- On Windows, you can use Git Credential Manager. Git Credential manager will allow you to enter your GitHub credentials once for a computer rather than using your personal access token each time you clone a repository. Git Credential Manager is installed with Git for Windows.
+- On Windows, you can use Git Credential Manager. Git Credential manager allows you to enter your GitHub credentials once for a computer rather than using your personal access token each time you clone a repository. Git Credential Manager is installed with Git for Windows.
 - On MacOS and Linux, you can use Git credential helper, please see [Caching your GitHub password in Git](https://help.github.com/articles/caching-your-github-password-in-git/#platform-all).
 
 ## Next steps
