@@ -1,7 +1,5 @@
 # Major and/or daily contributions and publishing
 
-> All repositories that contribute to docs.microsoft.com content have adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-
 Your individual workflow for contributing content is a repetitive cycle.  Changes flow through the three repositories. 
 
 <video width="640" height="360" controls poster="./media/contributing-and-publishing/your-individual-workflow.png">
@@ -37,13 +35,13 @@ Whenever you work on a set of changes, it’s a good idea to create a new branch
 
     Now, you have a new working branch in your local repository with the latest changes from the Microsoft repository's master branch. 
 
-5. Next, switch the *current branch* to your new branch.
+5. Next, you need to switch the *current branch* to your new branch.  Use the `git checkout` command to set the current branch.
 
    ```
    git checkout <working-branch>
    ```
 
-    The *current branch* is now the newly created working branch. 
+    The *current branch* is now the newly created working branch. When you make changes, git tracks them in your *current* branch.  Therefore, you need to be in the appropriate branch before you start making changes.  
 
 6. Next, you need to sync the new working branch to your fork in GitHub.  You use the `git push` command to sync your local repository with a GitHub repository. Note the arguments used in the command. You are pushing your <working branch> in the local repository to *origin*. The -u switch saves the push defaults for the branch. This allows you to call future *push* commands with no arguments on this branch. 
 
@@ -51,7 +49,7 @@ Whenever you work on a set of changes, it’s a good idea to create a new branch
    git push -u origin <working-branch>
    ```
 
-## Making and committing changes to your local working branch
+## Creating and updating articles
 
 1. Before making changes to files in your local repository, verify your working branch. Use the `git branch` command to list the branches available in your local repository.
 
@@ -59,18 +57,23 @@ Whenever you work on a set of changes, it’s a good idea to create a new branch
    git branch
    ```
 
-    The current branch will be prefaced with an asterisk. Verify your current branch is the branch you created in the previous section.  If not, use Git's checkout command to switch branches.
+    The current branch will be prefaced with an asterisk.
 
-2. Now, you are ready to make changes in your local repository's working branch. Create your new article or make changes to an existing article in the local working directory (e.g. the user's home directory in the file system). Use a text or markdown editor to edit or create markdown files.
+2. Now, you are ready to make changes to your local repository's working branch. You can update articles using the text editor of your choice; if you wish to create a new article, please see [Creating a new docs.microsoft.com article](./create-new-article.md).
 
-3. After you create/modify/delete files in your working directory, you need to "add" them to staging, then "commit" them into the branch:
+
+## Committing changes to your local working branch
+
+Git tracks a set of changes in a *commit*. A commit is a group of related changes you've made to several files. This allows you to group snapshots of changes that can be reversed if necessary. 
+
+1. As you create/modify/delete files in your working directory, you first need to "add" them to the staging area (aka: Index), then "commit" them from your working branch into your persisted copy of your branch, on a regular basis:
 
    ```
    git add -A
    git commit –m "<comment>"
    ```
 
-   Or, to add only the specific files you modified then commit:
+   Or, to add only the specific files you modified:
 
    ```
    git add <file path>
@@ -83,9 +86,9 @@ Whenever you work on a set of changes, it’s a good idea to create a new branch
    git pull upstream master
    ```
 
-    This gets the latest changes from the upstream master branch and merges them into your branch. This helps you discover merge conflicts earlier.
+    This will get the latest changes from the upstream master branch and merge them into your working branch. This will help you discover merge conflicts earlier.
 
-5. Use the `git push` command to sync your local repository with your forked GitHub repository. Because you used the -u switch on the first push, no arguments are required.
+5. Next, you need to sync your committed changes to your fork in GitHub.  Use the `git push` command to sync your local repository with a GitHub repository. Because you used the -u switch on the first push, no arguments are required.
 
    ```
    git push
@@ -95,13 +98,12 @@ Whenever you work on a set of changes, it’s a good idea to create a new branch
 
 ## Opening a pull request
 
-> If you submit a pull request with new files or significant changes to documentation or code samples, we may also need to correspond with you in the pull request, asking you to submit an online Contribution License Agreement (CLA).
+A pull request enables the collaboration model on GitHub. By opening a pull request, you are asking to pull the changes from your working branch and merge them into the main repository. When you open a pull request, your changes are validated by a series of automated checks to verify it can be merged.  A person called the pull request reviewer also looks at your changes and will give you feedback if they think there is an issue with your changes.
 
-A pull request enables the collaboration model on GitHub. By opening a pull request, you are asking to pull the changes from your working branch and merge them into the main repository. When you open a pull request, your changes are validated by a series of automated checks to verify it can be merged.  A person called the pull request reviewer also looks at your changes and gives you feedback.
 
-1. When you are ready to submit your content to the upstream master branch for staging, validation, and publishing, go to the GitHub page for your fork. For example, github.com<GitHub-user-name>/Azure-RMS. 
+1. When you are ready to submit your content to the upstream master branch for staging, validation, and/or publishing, go to the GitHub page for your fork. For example, https://github.com/<GitHub-user-name>/Azure-RMS. 
 
-2. Create a Pull Request from your fork's working branch to the docs.microsoft.com repository's master branch. Click the *New pull request* button.
+2. Create a Pull Request from your fork's working branch, to the docs.microsoft.com repository's master branch. Click the *New pull request* button.
 
    ![New pull request button](./media/contributing-and-publishing/new-pull-request-button.png)
 
@@ -112,7 +114,8 @@ A pull request enables the collaboration model on GitHub. By opening a pull requ
 
 4. The pull request reviewer reviews your pull request, provides feedback, and/or merges your pull request. 
 
-5. Once published, you can verify your published article or changes at the appropriate `http://docs.microsoft.com/*path to-your-article-without-the-MD-extension*` URL.
+5. Optionally verify your published article or changes at the appropriate `http://docs.microsoft.com/*path to-your-article-without-the-MD-extension*` URL.
+
 
 ## Next steps
 

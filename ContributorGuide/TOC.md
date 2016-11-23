@@ -10,7 +10,7 @@
 
 # Contribution workflow
 ## [Minor contributions](minor-contributions.md)
-## [Major/daily contributions and publishing](contributing-and-publishing.md)
+## [Major contributions and publishing](contributing-and-publishing.md)
 ## [Tutorial](git-github-workflow-tutorial.md)
 
 # Guidance
