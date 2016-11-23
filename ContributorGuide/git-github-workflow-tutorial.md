@@ -24,8 +24,7 @@ From your fork of the main repo (i.e. https://github.com/YOUR-GITHUB-USERNAME/Do
 
 Then, in Git Bash, change to the directory in which you wish to store your Git repos. Many contributors create a "docs" folder under `C:\Users\YOUR-WINDOWS-USERNAME` and store their repos there.
     
-**TIP:**: In Git Bash, the tilde (~) corresponds to your "home directory"; i.e., in a Windows system, "C:\Users\YOUR-WINDOWS-USERNAME". So, after creating the "docs" subdirectory, you can move into it using `cd ~/docs`.
-    
+
 Enter `git clone COPIED-URL`. Once the clone is complete, change into the newly cloned directory. You'll know you are in a git repo because the branch name "master" will appear in parentheses.
 
 ![Git bash](./media/tutorial/training-tutorial-gitbash-clone.png)
@@ -46,13 +45,13 @@ Now return to Git Bash.  Delete the existing "origin" alias with `git remote rem
 
 Now do likewise with "upstream": `git remote remove upstream` followed by `git remote add upstream http://GITHUB-USERNAME:NEWLY-CREATED-ACCESS-TOKEN@github.com/Microsoft/Docs.git`.
   
-**IMPORTANT:**: When giving you a personal access token, Github warns that you will never again see it on their website. Fortunately, if you embed it into your aliases, you can later view it (and, more importanly, copy it for use in other repos) using the aforementioned `git remote -v` command.
+**IMPORTANT:** When giving you a personal access token, Github warns that you will never again see it on their website. Fortunately, if you embed it into your aliases, you can later view it (and, more importanly, copy it for use in other repos) using the aforementioned `git remote -v` command.
 
 ## Sync the repo and create a working branch
 
 Enter `git pull upstream master:BRANCH-NAME`. "BRANCH-NAME" can be anything you choose, but it's best to make it relevent to the changes you are making (in this instance, something like "training" or "tutorial"). 
 
-**NOTE:**: Even though you are working in a clone of your fork ("origin"), you generally sync with the main repo ("upstream"). When other contributors make changes they will merge them into the main repo, so syncing with "upstream" ensures you have the most up-to-date files.
+**NOTE:** Even though you are working in a clone of your fork ("origin"), you generally sync with the main repo ("upstream"). When other contributors make changes they will merge them into the main repo, so syncing with "upstream" ensures you have the most up-to-date files.
 
 If you receive an error when attempting a sync, you have likely set up your "upstream" alias incorrectly. Review and repeat the steps above, if necessary.  
 
@@ -92,7 +91,7 @@ If you run `git status` after a commit, you will see nothing. That's because, so
 
 You've now commited the changes to your local clone of the forked repository, but you still need to get them out to Github.  The command for this is `git push origin BRANCH-NAME`. 
 
-**NOTE:**: When pushing you use "origin" (even though you pulled from "upstream"), because your goal is to get your changes into your fork. 
+**NOTE:** When pushing you use "origin" (even though you pulled from "upstream"), because your goal is to get your changes into your fork. 
 
 ![Git commit and push](./media/tutorial/training-tutorial-gitbash-commit-push.png)
 
@@ -108,7 +107,7 @@ On the next page, you want to set the base (the left-hand side) to the master br
 
 When you are sure the base and head are correct, click "Create Pull Request"
 
-**TIP:**: If you are lucky, Github will give you a yellow banner with a Compare & Pull Request button already configured for the changes you wish to merge. 
+**TIP:** If you are lucky, Github will give you a yellow banner with a Compare & Pull Request button already configured for the changes you wish to merge. 
 >
 > ![Git auto PR](./media/tutorial/training-tutorial-pr-auto.png)
 >
