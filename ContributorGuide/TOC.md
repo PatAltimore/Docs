@@ -1,3 +1,5 @@
+# [Contributor guide home](index.md)
+
 # Concepts
 ## [Git and GitHub overview](git-and-github-overview.md)
 
@@ -8,7 +10,7 @@
 
 # Contribution workflow
 ## [Minor contributions](minor-contributions.md)
-## [Major/daily contributions and publishing](contributing-and-publishing.md)
+## [Major contributions and publishing](contributing-and-publishing.md)
 ## [Tutorial](git-github-workflow-tutorial.md)
 
 # Guidance
